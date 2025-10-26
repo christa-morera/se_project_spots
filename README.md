@@ -1,21 +1,53 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+An image sharing site.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+> 🧑‍💻 This project was created as part of the **Software Engineering Program at [TripleTen Bootcamp](https://tripleten.com/)**.  
+> It demonstrates responsive layout design and modern CSS techniques.
+
+## Description
+
+Spots is a simple, responsive image-sharing website built with HTML and CSS.
+It mimics a social-media-style layout where users can view photo cards, a profile section, and an organized gallery that adjusts seamlessly from desktop to mobile screens.
+
+This project was created to practice flexbox, media queries, and responsive web design principles, focusing on clean structure and accessibility.
+
+## Built With
+
+- HTML5 — for semantic structure.
+
+- CSS3 — for styling and layout.
+
+- Flexbox and grid for alignment.
+
+- Media queries for responsiveness.
+
+## Tech Stack
+
+- Responsive layout that adapts from desktop (1280 px) to mobile (320 px)
+
+- Flexible profile section with avatar, editable user info, and action buttons.
+
+- Image grid using CSS Flexbox for clean alignment and scaling.
+
+- Hover effects for interactive elements.
+
+- Semantic HTML structure for better accessibility and SEO.
+
+## Deployment
+
+This webpage is deployed to GitHub Pages.
+
+- Deployment Link
+
+## Future Improvements
+
+- Add JavaScript for interactivity (like button actions or image uploads).
+
+- Include user authentication and dynamic data in later iterations.
+
+- Implement a dark/light mode toggle.
+
+### Author
+
+Christa Morera Balestena
