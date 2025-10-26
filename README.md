@@ -52,6 +52,11 @@ Deployment Link: https://christa-morera.github.io/se_project_spots/
 
 <img width="1238" height="1122" alt="Screenshot 2025-10-25 at 9 07 04 PM" src="https://github.com/user-attachments/assets/b2d2c5c7-23ab-4bcb-b6cb-377d5ae93a61" />
 
+## Project Pitch Video
+
+Check out [this video](https://drive.google.com/file/d/1gpUiuujJQDLgv9iMzo87uBlIgnDVd7JL/view?usp=sharing), where I describe my
+project and some challenges I faced while building it.
+
 ### Author
 
 Christa Morera Balestena
