@@ -38,7 +38,7 @@ This project was created to practice flexbox, media queries, and responsive web 
 
 This webpage is deployed to GitHub Pages.
 
-- Deployment Link
+Deployment Link: https://christa-morera.github.io/se_project_spots/
 
 ## Future Improvements
 
@@ -48,7 +48,7 @@ This webpage is deployed to GitHub Pages.
 
 - Implement a dark/light mode toggle.
 
-  ## Quick view
+  ### Quick view
 
 <img width="1238" height="1122" alt="Screenshot 2025-10-25 at 9 07 04 PM" src="https://github.com/user-attachments/assets/b2d2c5c7-23ab-4bcb-b6cb-377d5ae93a61" />
 
