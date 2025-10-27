@@ -4,7 +4,8 @@
 }
 
 .footer__text {
-  color: #212121b2;
+  color: #212121;
+  opacity: 70%;
   margin: 0 auto;
   padding: 60px;
   font-weight: 400;
