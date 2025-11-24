@@ -38,6 +38,11 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+}
+
+.modal__close-btn:hover {
+  opacity: 70%;
 }
 
 .modal__title {
@@ -62,6 +67,8 @@
   padding-right: 12px;
   padding-bottom: 16px;
   padding-left: 12px;
+  width: 100%;
+  box-sizing: border-box;
   border-style: solid;
   border-radius: 8px;
   border-width: 1px;
@@ -95,7 +102,19 @@
   padding-left: 32px;
   border-radius: 8px;
   line-height: 1;
+  border: none;
+  cursor: pointer;
 }
+
+.modal__submit-btn:hover {
+  opacity: 70%;
+}
+
+.modal__submit-btn:focus {
+  outline: 2px solid #fcf5e5;
+  outline-offset: 2px;
+}
+
 @media (max-width: 480px) {
   .modal__title {
     padding: 22px 12px 0;
@@ -112,7 +131,6 @@
   .modal__input {
     font-size: 16px;
   }
-
   .modal__label {
     margin-bottom: 24px;
   }
