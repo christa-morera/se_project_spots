@@ -61,6 +61,7 @@ function handleNewPostSubmit(evt) {
   console.log(`${newPostImageLinkInput.value}`);
   console.log(`${newPostImageCaptionInput.value}`);
   closeModal(newPostModal);
+  newPostForm.reset();
 }
 
 newPostForm.addEventListener("submit", handleNewPostSubmit);
