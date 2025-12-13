@@ -47,98 +47,24 @@
         </section>
         <section class="cards page__section">
           <ul class="cards__list">
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Val Thorens"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Val Thorens</h2>
+            <template id="card-template">
+              <li class="card">
                 <button
+                  class="card__delete-btn"
                   type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
+                  aria-label="delete button"
                 ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/2-photo-by-ceiline-from-pexels.jpg"
-                alt="Restaurant Terrace"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Restaurant Terrace</h2>
-                <button
-                  type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-                alt="An outdoor cafe"
-              />
-              <div class="card__content">
-                <h2 class="card__title">An outdoor cafe</h2>
-                <button
-                  type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
-                alt="A very long bridge, over the forest"
-              />
-              <div class="card__content">
-                <h2 class="card__title">
-                  A very long bridge, over the forest...
-                </h2>
-                <button
-                  type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-                alt="Tunnel with morning light"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Tunnel with morning light</h2>
-                <button
-                  type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                class="card__image"
-                src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Mountain house"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Mountain house</h2>
-                <button
-                  type="button"
-                  aria-label="Like button"
-                  class="card__like-btn"
-                ></button>
-              </div>
-            </li>
+                <img class="card__image" src="#" alt="" />
+                <div class="card__content">
+                  <h2 class="card__title"></h2>
+                  <button
+                    class="card__like-btn"
+                    type="button"
+                    aria-label="Like button"
+                  ></button>
+                </div>
+              </li>
+            </template>
           </ul>
         </section>
       </main>
@@ -209,6 +135,19 @@
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
+        </div>
+      </div>
+      <div class="modal modal_type_preview" id="preview-modal">
+        <div class="modal__content">
+          <button
+            type="button"
+            aria-label="Close form button"
+            class="modal__close-btn modal__close-btn_type_preview"
+          >
+            <img src="./images/close-btn-white.svg" alt="close button" />
+          </button>
+          <img class="modal__image" src="#" alt="#" />
+          <p class="modal__caption"></p>
         </div>
       </div>
     </div>
