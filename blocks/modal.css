@@ -25,7 +25,7 @@
 }
 
 .modal__container {
-  background-color: #ffffff;
+  background-color: #fff;
   max-width: 730px;
   width: 100%;
   position: relative;
@@ -91,6 +91,10 @@
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.4);
   font-size: 20px;
+}
+.modal__input:hover {
+  cursor: pointer;
+  border-color: rgba(33, 33, 33, 1);
 }
 
 .modal__input::placeholder {
@@ -184,7 +188,7 @@
   }
 }
 @media (max-width: 630px) {
-  /* Positioned below 480px medai query to avoid being overwritten */
+  /* Positioned below 480px media query to avoid being overwritten */
   .modal__close-btn_type_preview {
     top: -48px;
     right: 0px;
