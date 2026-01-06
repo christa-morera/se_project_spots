@@ -54,6 +54,9 @@ Deployment Link: https://christa-morera.github.io/se_project_spots/
 
 ## Project Pitch Video
 
+Stage 9 Pitch Video(I was unable to download it from Loom)
+https://www.loom.com/share/3d3f4bc195714f6990961b7234edc2e5
+
 Check out [this video](https://drive.google.com/file/d/1gpUiuujJQDLgv9iMzo87uBlIgnDVd7JL/view?usp=sharing), where I describe my
 project and some challenges I faced while building it.
 
