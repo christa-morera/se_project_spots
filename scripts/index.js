@@ -117,7 +117,7 @@ function openModal(modal) {
 
 function closeModal(modal) {
   modal.classList.remove("modal_is-opened");
-  document.removeEventListenerListener("keydown", handleEscapeClose);
+  document.removeEventListener("keydown", handleEscapeClose);
 }
 
 editProfileBtn.addEventListener("click", function () {
