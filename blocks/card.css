@@ -44,7 +44,7 @@
 }
 
 .card__like-btn:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .card__like-btn_active {
