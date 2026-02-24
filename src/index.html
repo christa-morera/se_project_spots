@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,22 +10,31 @@
     <meta name="author" content="Christa Morera" />
     <meta name="keywords" content="Image sharing social media" />
     <title>Spots</title>
-    <link href="./pages/index.css" rel="stylesheet" />
     <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img
+        <!-- <img
           src="./images/spots-logo.svg"
+          alt="Spots logo"
+          class="header__logo"
+        /> -->
+        <img
+          src="<%=require('./images/spots-logo.svg')%>"
           alt="Spots logo"
           class="header__logo"
         />
       </header>
       <main class="content">
         <section class="profile page__section">
-          <img
+          <!-- <img
             src="./images/avatar.jpg"
+            alt="Avatar Image "
+            class="profile__avatar"
+          /> -->
+          <img
+            src="<%=require('./images/avatar.jpg')%>"
             alt="Avatar Image "
             class="profile__avatar"
           />
@@ -33,15 +42,20 @@
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
             <button type="button" class="profile__edit-btn">
-              <img src="./images/pencil.svg" alt="pencil icon" />Edit Profile
+              <!-- <img src="./images/pencil.svg" alt="pencil icon" /> -->
+              <img
+                src="<%=require('./images/pencil.svg')%>"
+                alt="pencil icon"
+              />Edit Profile
             </button>
           </div>
           <button type="button" class="profile__new-post-btn">
-            <img
+            <!-- <img
               class="profile__plus-img"
               src="./images/plus-sign.svg"
               alt="plus icon"
-            />
+            /> -->
+            <img src="<%=require('./images/plus-sign.svg')%>" alt="plus icon" />
             New Post
           </button>
         </section>
@@ -78,7 +92,11 @@
             aria-label="Close form button"
             class="modal__close-btn"
           >
-            <img src="./images/close-btn.svg" alt="close button" />
+            <!-- <img src="./images/close-btn.svg" alt="close button" /> -->
+            <img
+              src="<%=require('./images/close-btn.svg')%>"
+              alt="close button"
+            />
           </button>
           <h2 class="modal__title">Edit profile</h2>
           <form class="modal__form" novalidate>
@@ -125,7 +143,11 @@
             aria-label="Close form button"
             class="modal__close-btn"
           >
-            <img src="./images/close-btn.svg" alt="close button" />
+            <!-- <img src="./images/close-btn.svg" alt="close button" /> -->
+            <img
+              src="<%=require('./images/close-btn.svg')%>"
+              alt="close button"
+            />
           </button>
           <h2 class="modal__title">New Post</h2>
           <form class="modal__form" novalidate>
@@ -170,14 +192,16 @@
             aria-label="Close form button"
             class="modal__close-btn modal__close-btn_type_preview"
           >
-            <img src="./images/close-btn-white.svg" alt="close button" />
+            <!-- <img src="./images/close-btn-white.svg" alt="close button" /> -->
+            <img
+              src="<%=require('./images/close-btn-white.svg')%>"
+              alt="close button"
+            />
           </button>
           <img class="modal__image" src="#" alt="" />
           <p class="modal__caption"></p>
         </div>
       </div>
     </div>
-    <script src="./scripts/validation.js"></script>
-    <script src="./scripts/index.js"></script>
   </body>
 </html>

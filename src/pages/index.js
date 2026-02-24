@@ -1,3 +1,11 @@
+import "../pages/index.css";
+import {
+  enableValidation,
+  settings,
+  resetValidation,
+  disabledButton,
+} from "../scripts/validation.js";
+
 const initialCards = [
   {
     name: "Golden Gate bridge",
@@ -34,10 +42,10 @@ const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 const editProfileForm = editProfileModal.querySelector(".modal__form");
 const editProfileNameInput = editProfileModal.querySelector(
-  "#profile-name-input"
+  "#profile-name-input",
 );
 const editProfileDescriptionInput = editProfileModal.querySelector(
-  "#profile-description-input"
+  "#profile-description-input",
 );
 
 const newPostBtn = document.querySelector(".profile__new-post-btn");
@@ -47,7 +55,7 @@ const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const newPostForm = newPostModal.querySelector(".modal__form");
 const newPostImageLinkInput = newPostModal.querySelector("#image-link-input");
 const newPostImageCaptionInput = newPostModal.querySelector(
-  "#image-caption-input"
+  "#image-caption-input",
 );
 
 const profileNameEl = document.querySelector(".profile__name");
@@ -124,7 +132,7 @@ editProfileBtn.addEventListener("click", function () {
   resetValidation(
     editProfileForm,
     [editProfileNameInput, editProfileDescriptionInput],
-    settings
+    settings,
   );
   openModal(editProfileModal);
   editProfileNameInput.value = profileNameEl.textContent;
@@ -177,3 +185,5 @@ initialCards.forEach(function (item) {
 previewModalCloseBtn.addEventListener("click", function () {
   closeModal(previewModal);
 });
+
+enableValidation(settings);
