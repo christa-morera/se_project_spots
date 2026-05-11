@@ -54,6 +54,9 @@ Deployment Link: https://christa-morera.github.io/se_project_spots/
 
 ## Project Pitch Video
 
+Final Stage(Integrating live API server)
+https://www.loom.com/share/0737fd3c5c94433ba8d8145ad6c7d45f
+
 Stage 9 Pitch Video(I was unable to download it from Loom)
 https://www.loom.com/share/3d3f4bc195714f6990961b7234edc2e5
 
